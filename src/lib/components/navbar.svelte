@@ -59,6 +59,8 @@
     } .mooncon h1 {
         font-size: 50px;
         margin: 25px;
+    } .mooncon h1:hover {
+        cursor: pointer;
     }
 
     .options {
@@ -76,6 +78,8 @@
         color: white;
         font-family: Latienne Pro;
         font-size: 25px;
+    } .options h2:hover {
+        cursor: pointer;
     }
 
 </style>
