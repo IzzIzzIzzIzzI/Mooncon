@@ -6,9 +6,9 @@
 <link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
 
 <div class="back">
-    <div class="mooncon">
+    <button class="mooncon">
         <h1>Mooncon</h1>
-    </div>
+    </button>
     <div class="options">
         <button class="about_us">
             <h2>About us</h2>
