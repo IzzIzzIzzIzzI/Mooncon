@@ -63,10 +63,19 @@
 
     .options {
         position: fixed;
-        top: 5px;
+        top: 0px;
         height: 100px;
+        width: 60%;
         display: flex;
-        
+        flex-direction: row;
+        justify-content: left;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-top: 15px;
+    } .options h2 {
+        color: white;
+        font-family: Latienne Pro;
+        font-size: 25px;
     }
 
 </style>
