@@ -11,7 +11,7 @@
     .background {
         height: 100%;
         width: 100%;
-        background-image: linear-gradient(#945aaa, #5a5aaa);
+        background-image: linear-gradient(#945aaa 60%, #5a5aaa);
         position: fixed;
     }
 
