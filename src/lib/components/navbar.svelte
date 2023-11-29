@@ -1,16 +1,17 @@
 <script>
-
+    import { page } from "$app/stores";
+    import { goto} from "$app/navigation"
 </script>
 
 <link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
 <link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
 
 <div class="back">
-    <button class="mooncon">
+    <button class="mooncon" on:click={()=>{goto("/");}}>
         <h1>Mooncon</h1>
     </button>
     <div class="options">
-        <button class="about_us">
+        <button class="about_us" on:click={()=>{goto("");}}>
             <h2>About us</h2>
         </button>
         <button class="FAQ">
