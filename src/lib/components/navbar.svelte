@@ -7,26 +7,26 @@
 <link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
 
 <div class="back">
-    <button class="mooncon" on:click={()=>{goto("/home_page");}}>
+    <button class="mooncon" on:click={()=>{goto("/");}}>
         <h1>Mooncon</h1>
     </button>
     <div class="options">
-        <button class="about_us" on:click={()=>{goto("");}}>
+        <button class="about_us" on:click={()=>{goto("/about_us");}}>
             <h2>About us</h2>
         </button>
-        <button class="FAQ">
+        <button class="FAQ" on:click={()=>{goto("/faq");}}>
             <h2>FAQ</h2>
         </button>
-        <button class="competitions">
+        <button class="competitions" on:click={()=>{goto("/competitions");}}>
             <h2>Competitions</h2>
         </button>
-        <button class="activities">
+        <button class="activities" on:click={()=>{goto("/activities");}}>
             <h2>Activities</h2>
         </button>
-        <button class="info">
+        <button class="info" on:click={()=>{goto("/info");}}>
             <h2>Info</h2>
         </button>
-        <button class="tickets">
+        <button class="tickets" on:click={()=>{goto("/tickets");}}>
             <h2>Tickets</h2>
         </button>
     </div>
