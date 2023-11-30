@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
 
 <div class="back">
-    <button class="mooncon" on:click={()=>{goto("/");}}>
+    <button class="mooncon" on:click={()=>{goto("/home_page");}}>
         <h1>Mooncon</h1>
     </button>
     <div class="options">

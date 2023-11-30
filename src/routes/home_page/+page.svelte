@@ -4,15 +4,22 @@
 
 <div class="front_picture">
     <!-- svelte-ignore a11y-img-redundant-alt -->
-    <img src="{front}" alt="Picture with the logo and name of Mooncon">
+    <img src="{front}" alt="Mooncon logo and name">
 </div>
 
 <style>
     .front_picture {
-        width: 100%;
-        height: 100%;
+        width: 100px;
+        height: 100px;
         position: fixed;
+        top: 300px;
+        background-color: blue;
+    } .front_picture img {
+        width: 1250px;
+        height: 1000px;
         top: 0;
+        position: static;
+        background-color: aqua;
     }
     
 </style>

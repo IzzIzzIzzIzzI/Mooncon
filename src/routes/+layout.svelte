@@ -4,8 +4,9 @@
 </script>
 
 <div class="background"></div>
-<Navbar/>
 
+<slot/>
+<Navbar/>
 
 <style>
     .background {
