@@ -1,6 +1,6 @@
 <script>
     import { page } from "$app/stores";
-    import { goto} from "$app/navigation"
+    import { goto } from "$app/navigation"
 </script>
 
 <link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
