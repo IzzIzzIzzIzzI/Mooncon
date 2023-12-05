@@ -7,19 +7,68 @@
     <img src="{front}" alt="Mooncon logo and name">
 </div>
 
+<div class="maps">
+    <div class="venue_map">
+
+    </div>
+
+    <div class="map_text">
+        <div class="venue_text">
+
+        </div>
+
+        <div class="sleep_text">
+
+        </div>
+    </div>
+
+    <div class="sleep_map">
+
+    </div>
+</div>
+
 <style>
     .front_picture {
         width: 100px;
         height: 100px;
-        position: fixed;
-        top: 300px;
-        background-color: blue;
+        position: absolute;
+        top: -90px;
     } .front_picture img {
-        width: 1250px;
-        height: 1000px;
+        width: 1366px;
+        height: 750px;
         top: 0;
         position: static;
+    }
+
+    .maps {
+        width: 100%;
+        height: fit-content;
+        position: absolute;
+        top: 700px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .venue_map {
+        width: 400px;
+        height: 400px;
         background-color: aqua;
+        border-radius: 25px;
+    }
+
+    .map_text {
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+        border-radius: 25px;
+    }
+
+    .sleep_map {
+        width: 400px;
+        height: 400px;
+        background-color: aqua;
+        border-radius: 25px;
     }
     
 </style>
