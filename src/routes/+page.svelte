@@ -32,10 +32,10 @@
         width: 100px;
         height: 100px;
         position: absolute;
-        top: -90px;
+        top: 50px;
     } .front_picture img {
         width: 1366px;
-        height: 750px;
+        height: 650px;
         top: 0;
         position: static;
     }
