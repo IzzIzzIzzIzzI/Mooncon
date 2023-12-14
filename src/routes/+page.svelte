@@ -2,6 +2,9 @@
     import front from "$lib/pictures/Home_Picture.png";
 </script>
 
+<link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
+<link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
+
 <div class="front_picture">
     <!-- svelte-ignore a11y-img-redundant-alt -->
     <img src="{front}" alt="Mooncon logo and name">
@@ -14,11 +17,11 @@
 
     <div class="map_text">
         <div class="venue_text">
-
+            <h2>Venue location:</h2>
         </div>
 
         <div class="sleep_text">
-
+            <h2>Sleepinghall location:</h2>
         </div>
     </div>
 
@@ -62,6 +65,29 @@
         height: 400px;
         background-color: blue;
         border-radius: 25px;
+    }
+
+    .venue_text {
+        background-color: crimson;
+        top: 0;
+        width: 400px;
+        height: 200px;
+    } .venue_text h2 {
+        margin: 0;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .sleep_text {
+        background-color: chartreuse;
+        bottom: 0;
+        width: 400px;
+        height: 200px;
+    } .sleep_text h2 {
+        margin: 0;
+        color: white;
+        text-align: right;
+        text-decoration: underline;
     }
 
     .sleep_map {
