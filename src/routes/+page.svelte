@@ -4,6 +4,7 @@
 
 <link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
 <link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
+<link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
 
 <div class="front_picture">
     <!-- svelte-ignore a11y-img-redundant-alt -->
@@ -18,10 +19,12 @@
     <div class="map_text">
         <div class="venue_text">
             <h2>Venue location:</h2>
+            <h3>Chateau Neuf</h3>
         </div>
 
         <div class="sleep_text">
             <h2>Sleepinghall location:</h2>
+            <h3>Majorstua skole</h3>
         </div>
     </div>
 
@@ -72,10 +75,13 @@
         top: 0;
         width: 400px;
         height: 200px;
+        color: white;
     } .venue_text h2 {
         margin: 0;
-        color: white;
+        font-family: Latienne-Pro;
         text-decoration: underline;
+    } .venue_text h3 {
+        font-family: Rockwell-Nova;
     }
 
     .sleep_text {
@@ -83,11 +89,14 @@
         bottom: 0;
         width: 400px;
         height: 200px;
-    } .sleep_text h2 {
-        margin: 0;
         color: white;
         text-align: right;
+    } .sleep_text h2 {
+        margin: 0;
+        font-family: Latienne-Pro;
         text-decoration: underline;
+    } .sleep_text h3 {
+        font-family: Rockwell-Nova;
     }
 
     .sleep_map {

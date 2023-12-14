@@ -5,6 +5,7 @@
 
 <link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
 <link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
+<link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
 
 <div class="back">
     <button class="mooncon" on:click={()=>{goto("/");}}>
@@ -77,7 +78,7 @@
         padding-top: 15px;
     } .options h2 {
         color: white;
-        font-family: Latienne Pro;
+        font-family: Latienne-Pro;
         font-size: 25px;
     } .options h2:hover {
         cursor: pointer;
