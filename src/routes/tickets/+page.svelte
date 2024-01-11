@@ -1,5 +1,8 @@
 <script>
     import logo from "$lib/pictures/Mooncon_logo.png";
+    import cloud1 from "$lib/pictures/Cloud1.png";
+    import cloud2 from "$lib/pictures/Cloud2.png";
+    import cloud3 from "$lib/pictures/Cloud3.png";
 </script>
 
 <link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
@@ -16,7 +19,21 @@
 </div>
 
 <div class="logo">
-    <img src="{logo}" alt="Mooncon logo">
+    <img src="{logo}" alt="Clouds infront of Mooncon logo">
+</div>
+
+<div class="clouds">
+    <div class="cloud_one">
+        <img src="{cloud1}" alt="Clouds infront of Mooncon logo">
+    </div>
+
+    <div class="cloud_two">
+        <img src="{cloud2}" alt="Clouds infront of Mooncon logo">
+    </div>
+
+    <div class="cloud_three">
+        <img src="{cloud3}" alt="Clouds infront of Mooncon logo">
+    </div>
 </div>
 
 <style>
@@ -62,5 +79,20 @@
         justify-content: center;
     } .logo img{
         width: 40vw;
+    }
+
+    .clouds {
+        display: flex;
+        width: 100vw;
+        height: 65vh;
+        background-color: blue;
+        position: absolute;
+        top: 210px;
+        opacity: 50%;
+    }
+
+    .cloud_one {
+        width: 10vw;
+        height: 10vw;
     }
 </style>
