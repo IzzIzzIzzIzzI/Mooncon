@@ -1,7 +1,7 @@
 <script>
     import logo from "$lib/pictures/Mooncon_logo.png";
     import cloud1 from "$lib/pictures/Cloud1.png";
-    import cloud2 from "$lib/pictures/Cloud2.png";
+    import cloud2 from "$lib/pictures/Cloud2.webp";
     import cloud3 from "$lib/pictures/Cloud3.png";
 </script>
 
@@ -27,13 +27,13 @@
         <img src="{cloud1}" alt="Clouds infront of Mooncon logo">
     </div>
 
-    <div class="cloud_two">
+    <!-- <div class="cloud_two">
         <img src="{cloud2}" alt="Clouds infront of Mooncon logo">
     </div>
 
     <div class="cloud_three">
         <img src="{cloud3}" alt="Clouds infront of Mooncon logo">
-    </div>
+    </div> -->
 </div>
 
 <style>
@@ -92,7 +92,12 @@
     }
 
     .cloud_one {
-        width: 10vw;
-        height: 10vw;
+        width: 30vw;
+        height: 20vw;
+        left: 300px;
+        position: relative;
+        background-color: aqua;
+    } .cloud_one img {
+        width: 30vw;
     }
 </style>
