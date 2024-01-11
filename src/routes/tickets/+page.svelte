@@ -24,7 +24,7 @@
         width: 100vw;
         height: 110px;
         top: 100px;
-        position: relative;
+        position: absolute;
         /* background-color: blue; */
         display: flex;
         align-items: center;
@@ -50,5 +50,17 @@
         width: 85vw;
         height: 5px;
         background-color: #3c144b;
+    }
+
+    .logo {
+        width: 100vw;
+        height: 65vh;
+        top: 210px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } .logo img{
+        width: 40vw;
     }
 </style>
