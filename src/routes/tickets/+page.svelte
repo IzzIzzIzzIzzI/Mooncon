@@ -1,7 +1,7 @@
 <script>
     import logo from "$lib/pictures/Mooncon_logo.png";
     import cloud1 from "$lib/pictures/Cloud1.png";
-    import cloud2 from "$lib/pictures/Cloud2.webp";
+    import cloud2 from "$lib/pictures/Cloud2.png";
     import cloud3 from "$lib/pictures/Cloud3.png";
 </script>
 
@@ -27,13 +27,13 @@
         <img src="{cloud1}" alt="Clouds infront of Mooncon logo">
     </div>
 
-    <!-- <div class="cloud_two">
+    <div class="cloud_two">
         <img src="{cloud2}" alt="Clouds infront of Mooncon logo">
-    </div>
+    </div> 
 
     <div class="cloud_three">
         <img src="{cloud3}" alt="Clouds infront of Mooncon logo">
-    </div> -->
+    </div> 
 </div>
 
 <style>
@@ -42,7 +42,6 @@
         height: 110px;
         top: 100px;
         position: absolute;
-        /* background-color: blue; */
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -51,7 +50,6 @@
     .title {
         width: 100vw;
         height: 100px;
-        /* background-color: blueviolet; */
         justify-self: center;
         align-items: center;
         justify-content: center;
@@ -85,19 +83,33 @@
         display: flex;
         width: 100vw;
         height: 65vh;
-        background-color: blue;
         position: absolute;
         top: 210px;
-        opacity: 50%;
     }
 
     .cloud_one {
         width: 30vw;
-        height: 20vw;
-        left: 300px;
-        position: relative;
-        background-color: aqua;
+        left: 330px;
+        position: absolute;
     } .cloud_one img {
         width: 30vw;
+    }
+
+    .cloud_two {
+        width: 30vw;
+        position: absolute;
+        top: 100px;
+        right: 200px;
+    } .cloud_two img {
+        width: 30vw;
+    }
+
+    .cloud_three {
+        width: 30vw;
+        position: absolute;
+        top: 100px;
+        left: 330px;
+    } .cloud_three img {
+        width: 30wv;
     }
 </style>
