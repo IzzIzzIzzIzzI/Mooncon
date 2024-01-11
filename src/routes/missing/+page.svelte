@@ -11,15 +11,9 @@
 
 <div class="body">
 <div class="top">
-    <div class="title">
-        <h1>Tickets</h1>
-    </div>
-
-    <div class="line">
-    </div>
 
     <div class="text">
-        <h2>TICKETS WILL NOT COME OUT THE 23RD OF APRIL</h2>
+        <h2>We're so sorry, the page you were<br>trying to reach is unavailable</h2>
     </div>
 </div>
 
@@ -61,26 +55,6 @@
         flex-direction: column;
     }
 
-    .title {
-        width: 100vw;
-        height: 80px;
-        justify-self: center;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    } .title h1 {
-        display: flex;
-        font-family: latienne-Pro-Bold;
-        color: white;
-        font-size: 50px;
-    }
-
-    .line {
-        width: 85vw;
-        height: 5px;
-        background-color: #3c144b;
-    }
-
     .text {
         height: 100px;
         display: flex;
@@ -91,7 +65,7 @@
         font-family: latienne-Pro-Medium;
         color: white;
         text-align: center;
-        font-size: 25px;
+        font-size: 40px;
     }
 
     .logo {
