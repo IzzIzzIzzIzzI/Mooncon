@@ -10,36 +10,36 @@
 <link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
 
 <div class="body">
-<div class="top">
-    <div class="title">
-        <h1>Tickets</h1>
+    <div class="top">
+        <div class="title">
+            <h1>Tickets</h1>
+        </div>
+    
+        <div class="line">
+        </div>
+    
+        <div class="text">
+            <h2>TICKETS WILL NOT COME OUT THE 23RD OF APRIL</h2>
+        </div>
     </div>
-
-    <div class="line">
+    
+    <div class="logo">
+        <img src="{logo}" alt="Clouds infront of Mooncon logo">
     </div>
-
-    <div class="text">
-        <h2>TICKETS WILL NOT COME OUT THE 23RD OF APRIL</h2>
+    
+    <div class="clouds">
+        <div class="cloud_one">
+            <img src="{cloud1}" alt="Clouds infront of Mooncon logo">
+        </div>
+    
+        <div class="cloud_two">
+            <img src="{cloud2}" alt="Clouds infront of Mooncon logo">
+        </div> 
+    
+        <div class="cloud_three">
+            <img src="{cloud3}" alt="Clouds infront of Mooncon logo">
+        </div> 
     </div>
-</div>
-
-<div class="logo">
-    <img src="{logo}" alt="Clouds infront of Mooncon logo">
-</div>
-
-<div class="clouds">
-    <div class="cloud_one">
-        <img src="{cloud1}" alt="Clouds infront of Mooncon logo">
-    </div>
-
-    <div class="cloud_two">
-        <img src="{cloud2}" alt="Clouds infront of Mooncon logo">
-    </div> 
-
-    <div class="cloud_three">
-        <img src="{cloud3}" alt="Clouds infront of Mooncon logo">
-    </div> 
-</div>
 </div>
 
 <style>
