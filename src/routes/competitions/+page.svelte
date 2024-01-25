@@ -27,7 +27,7 @@
         </div>
 
         <div class="info_cosplay">
-
+            <p>Day: Sunday <br><br>Time: 14:30 - 16:00 Be there at least an hour before we start<br><br>Prejudging: 11:00 - 12:00</p>
         </div>
 
         <div class="line_cosplay">
@@ -88,11 +88,28 @@
         display: flex;
         flex-direction: column;
         color: white;
-        font-family: rockwell-nova;
-        background-color: blueviolet;
-        font-size: 20px;
     } .main_cosplay h1 {
         font-family: latienne-pro;
-        background-color: aqua;
+        margin-bottom: 0px;
+    } .main_cosplay p {
+        margin-top: 0px;
+        font-family: rockwell-nova;
+        font-size: 20px;
+    }
+
+    .div_cosplay {
+        width: 5px;
+        background-color: #3c144b;
+        opacity: 60%;
+    }
+
+    .info_cosplay {
+        width: 30vw;
+        color: white;
+        font-family: rockwell-nova;
+        font-size: 20px;
+    } .info_cosplay p {
+        margin-top: 50px;
+        margin-left: 15px;
     }
 </style>
