@@ -17,7 +17,7 @@
 
 <div class="main">
     <div class="cosplay">
-        <div class="main_cosplay">
+        <div class="main_text">
             <h1>Cosplay competition</h1>
             <p>Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente. Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis!</p>
         </div>
@@ -26,13 +26,34 @@
 
         </div>
 
-        <div class="info_cosplay">
-            <p>Day: Sunday <br><br>Time: 14:30 - 16:00 Be there at least an hour before we start<br><br>Prejudging: 11:00 - 12:00</p>
+        <div class="info">
+            <p>Day: Sunday <br><br>Time: 14:30 - 16:00 Be there at least an hour before we start<br><br>Prejudging: 11:00 - 12:00<br><br><br>Sign up <a href="/missing">here</a></p>
         </div>
 
-        <div class="line_cosplay">
+        
+    </div>
+    <div class="line">
+
+    </div>
+
+    <div class="cosplay">
+        <div class="main_text">
+            <h1>Performance showcase</h1>
+            <p>Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente. Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis!</p>
+        </div>
+
+        <div class="div_cosplay">
 
         </div>
+
+        <div class="info">
+            <p>Day: Saturday <br><br>Time: 16:30 - 18:00 Be there at least an hour before we start<br><br><br><br><br>Sign up <a href="/missing">here</a></p>
+        </div>
+
+        
+    </div>
+    <div class="line">
+
     </div>
 </div>
 
@@ -71,27 +92,28 @@
         width: 100vw;
         top: 200px;
         display: flex;
-        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         position: absolute;
     }
 
     .cosplay {
         width: 80vw;
-        height: 30vw;
+        /* height: fit-content; */
         position: relative;
         display: flex;
         flex-direction: row;
     }
 
-    .main_cosplay {
+    .main_text {
         width: 50vw;
         display: flex;
         flex-direction: column;
         color: white;
-    } .main_cosplay h1 {
+    } .main_text h1 {
         font-family: latienne-pro;
         margin-bottom: 0px;
-    } .main_cosplay p {
+    } .main_text p {
         margin-top: 0px;
         font-family: rockwell-nova;
         font-size: 20px;
@@ -103,13 +125,22 @@
         opacity: 60%;
     }
 
-    .info_cosplay {
+    .info {
         width: 30vw;
         color: white;
         font-family: rockwell-nova;
         font-size: 20px;
-    } .info_cosplay p {
+    } .info p {
         margin-top: 50px;
         margin-left: 15px;
+    }
+
+    .line {
+        width: 85vw;
+        height: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #3c144b;
+        opacity: 60%;
     }
 </style>
