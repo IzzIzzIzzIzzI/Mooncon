@@ -70,7 +70,8 @@
         display: flex;
     } .title h1 {
         display: flex;
-        font-family: latienne-Pro-Bold;
+        font-family: latienne-Pro;
+        font-style: bold;
         color: white;
         font-size: 50px;
     }
@@ -88,7 +89,8 @@
         flex-direction: column;
         justify-content: flex-start;
     } .text h2 {
-        font-family: latienne-Pro-Medium;
+        font-family: latienne-Pro;
+        font-style: medium;
         color: white;
         text-align: center;
         font-size: 25px;
