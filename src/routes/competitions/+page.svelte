@@ -16,45 +16,106 @@
 </div>
 
 <div class="main">
-    <div class="cosplay">
+    <div class="competition">
         <div class="main_text">
             <h1>Cosplay competition</h1>
             <p>Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente. Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis!</p>
         </div>
 
-        <div class="div_cosplay">
+        <div class="line_vertical">
 
         </div>
 
         <div class="info">
-            <p>Day: Sunday <br><br>Time: 14:30 - 16:00 Be there at least an hour before we start<br><br>Prejudging: 11:00 - 12:00<br><br><br>Sign up <a href="/missing">here</a></p>
+            <p>Day: Sunday <br><br>Time: 14:30 - 16:00<br>Be there at least an hour before we start<br><br>Prejudging: 11:00 - 12:00<br><br><br>Sign up <a href="/missing">here</a></p>
         </div>
 
         
     </div>
-    <div class="line">
+    <div class="line_horizontal">
 
     </div>
 
-    <div class="cosplay">
+    <div class="competition">
         <div class="main_text">
             <h1>Performance showcase</h1>
             <p>Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente. Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis!</p>
         </div>
 
-        <div class="div_cosplay">
+        <div class="line_vertical">
 
         </div>
 
         <div class="info">
-            <p>Day: Saturday <br><br>Time: 16:30 - 18:00 Be there at least an hour before we start<br><br><br><br><br>Sign up <a href="/missing">here</a></p>
+            <p>Day: Saturday <br><br>Time: 16:30 - 18:00<br>Be there at least an hour before we start<br><br><br><br><br>Sign up <a href="/missing">here</a></p>
         </div>
 
         
     </div>
-    <div class="line">
+    <div class="line_horizontal">
 
     </div>
+
+    <div class="competition">
+        <div class="main_text">
+            <h1>Cosplay catwalk</h1>
+            <p>Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente. Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis!</p>
+        </div>
+
+        <div class="line_vertical">
+
+        </div>
+
+        <div class="info">
+            <p>Day: Sunday <br><br>Time: 13:30 - 14:30<br>Be there at least an hour before we start<br><br><br><br><br>Sign up <a href="/missing">here</a></p>
+        </div>
+
+        
+    </div>
+    <div class="line_horizontal">
+
+    </div>    
+
+    <div class="competition">
+        <div class="main_text">
+            <h1>Style competition</h1>
+            <p>Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente. Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis!</p>
+        </div>
+
+        <div class="line_vertical">
+
+        </div>
+
+        <div class="info">
+            <p>Day: Saturday <br><br>Time: 18:00 - 19:00<br>Be there at least an hour before we start<br><br><br><br><br>Sign up <a href="/missing">here</a></p>
+        </div>
+
+        
+    </div>
+    <div class="line_horizontal">
+
+    </div>
+
+    <div class="competition">
+        <div class="main_text">
+            <h1>Tiktok competitions</h1>
+            <p>Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente. Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis!</p>
+        </div>
+
+        <div class="line_vertical">
+
+        </div>
+
+        <div class="info">
+            <p>Day: Saturday <br><br>Opens: 20th of May<br>Deadline: 5th of June<br><br><br><br><br>Sign up <a href="/missing">here</a></p>
+        </div>
+
+        
+    </div>
+    <div class="line_horizontal">
+
+    </div>
+    
 </div>
 
 <style>
@@ -97,9 +158,8 @@
         position: absolute;
     }
 
-    .cosplay {
+    .competition {
         width: 80vw;
-        /* height: fit-content; */
         position: relative;
         display: flex;
         flex-direction: row;
@@ -119,7 +179,7 @@
         font-size: 20px;
     }
 
-    .div_cosplay {
+    .line_vertical {
         width: 5px;
         background-color: #3c144b;
         opacity: 60%;
@@ -131,11 +191,11 @@
         font-family: rockwell-nova;
         font-size: 20px;
     } .info p {
-        margin-top: 50px;
+        margin-top: 40px;
         margin-left: 15px;
     }
 
-    .line {
+    .line_horizontal {
         width: 85vw;
         height: 5px;
         margin-top: 20px;
