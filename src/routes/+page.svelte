@@ -63,7 +63,7 @@
     .venue_map {
         width: 400px;
         height: 400px;
-        background-color: aqua;
+        background-color: blueviolet;
         border-radius: 25px;
         overflow: hidden;
 
@@ -72,26 +72,24 @@
     .map_text {
         width: 400px;
         height: 400px;
-        /* background-color: blue; */
         border-radius: 25px;
         margin-left: 20px;
         margin-right: 20px;
     }
 
     .venue_text {
-        /* background-color: crimson; */
         top: 0;
         width: 400px;
         height: 200px;
         color: white;
     } .venue_text h1 {
         margin: 0;
-        font-family: Latienne-Pro-Medium;
+        font-family: Latienne-Pro;
+        font-style: medium;
         text-decoration: underline;
     } 
 
     .sleep_text {
-        /* background-color: chartreuse; */
         bottom: 0;
         width: 400px;
         height: 200px;
@@ -99,28 +97,28 @@
         text-align: right;
     } .sleep_text h1 {
         margin: 0;
-        font-family: Latienne-Pro-Medium;
+        font-family: Latienne-Pro;
+        font-style: medium;
         text-decoration: underline;
     } 
 
     .place_name {
         font-family: Rockwell-Nova;
         margin: 0;
-        font-weight: 100;
         font-size: 25px;
     }
 
     .address {
-        font-family: Rockwell-Nova-Light;
+        font-family: Rockwell-Nova;
         margin: 0;
-        font-weight: 1;
+        font-weight: 200;
         font-size: 25px;
     }
 
     .sleep_map {
         width: 400px;
         height: 400px;
-        background-color: aqua;
+        background-color: blueviolet;
         border-radius: 25px;
         overflow: hidden;
     }

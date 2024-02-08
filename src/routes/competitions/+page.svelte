@@ -138,7 +138,8 @@
         display: flex;
     } .title h1 {
         display: flex;
-        font-family: latienne-Pro-Bold;
+        font-family: latienne-Pro;
+        font-style: bold;
         color: white;
         font-size: 50px;
     }

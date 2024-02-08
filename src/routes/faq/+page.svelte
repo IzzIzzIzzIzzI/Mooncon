@@ -15,6 +15,26 @@
     </div>
 </div>
 
+<div class="main">
+    <div class="text_right">
+        <div class="question">
+            <p>Q: This is where the question is written</p>
+        </div>
+        <div class="answer">
+            <p>A: This is where the question is answered</p>
+        </div>
+    </div>
+
+    <div class="text_left">
+        <div class="question">
+            <p>Q: This is where the question is written</p>
+        </div>
+        <div class="answer">
+            <p>A: This is where the question is answered</p>
+        </div>
+    </div>
+</div>
+
 <style>
     .top {
         width: 100vw;
@@ -35,7 +55,8 @@
         display: flex;
     } .title h1 {
         display: flex;
-        font-family: latienne-Pro-Bold;
+        font-family: latienne-Pro;
+        font-style: bold;
         color: white;
         font-size: 50px;
     }
@@ -44,5 +65,24 @@
         width: 85vw;
         height: 5px;
         background-color: #3c144b;
+    }
+
+    .main {
+        width: 100vw;
+        top: 200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        color: white;
+    }
+
+    .question {
+        font-family: rockwell-nova;
+    }
+
+    .answer {
+        font-family: rockwell-nova;
+        font-weight: 200;
     }
 </style>
