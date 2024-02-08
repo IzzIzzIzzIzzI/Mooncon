@@ -16,6 +16,15 @@
 </div>
 
 <div class="main">
+    <div class="text_left">
+        <div class="question">
+            <p>Q: This is where the question is written</p>
+        </div>
+        <div class="answer">
+            <p>A: This is where the question is answered</p>
+        </div>
+    </div>
+
     <div class="text_right">
         <div class="question">
             <p>Q: This is where the question is written</p>
@@ -31,6 +40,15 @@
         </div>
         <div class="answer">
             <p>A: This is where the question is answered</p>
+        </div>
+    </div>
+
+    <div class="text_right">
+        <div class="question">
+            <p>Q: This is where the question is written This is where the question is written This is where the question is written This is where the question is written This is where the question is written This is where the question is written </p>
+        </div>
+        <div class="answer">
+            <p>A: This is where the question is answered This is where the question is answered This is where the question is answered This is where the question is answered This is where the question is answered This is where the question is answered</p>
         </div>
     </div>
 </div>
@@ -77,12 +95,34 @@
         color: white;
     }
 
+    .text_right {
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        text-align: right;
+    }
+
+    .text_left {
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: left;
+    }
+
     .question {
         font-family: rockwell-nova;
+        font-size: 20px;
+        margin-bottom: 0px;
+        width: 80vw;
     }
 
     .answer {
         font-family: rockwell-nova;
         font-weight: 200;
+        font-size: 20px;
+        margin-top: -30px;
+        width: 80vw;
     }
 </style>
