@@ -62,7 +62,8 @@
         flex-direction: column;
         justify-content: flex-start;
     } .text h2 {
-        font-family: latienne-Pro-Medium;
+        font-family: latienne-Pro;
+        font-style: medium;
         color: white;
         text-align: center;
         font-size: 40px;
