@@ -18,37 +18,118 @@
 <div class="main">
     <div class="text_left">
         <div class="question">
-            <p>Q: This is where the question is written</p>
+            <p>Q: How do I get to Mooncon?</p>
         </div>
         <div class="answer">
-            <p>A: This is where the question is answered</p>
+            <p>A: Mooncon will not be at Chateau Neuf, which is 4 min away from Majorstuen.</p>
         </div>
     </div>
 
     <div class="text_right">
         <div class="question">
-            <p>Q: This is where the question is written</p>
+            <p>Q: When will the tickets be released?</p>
         </div>
         <div class="answer">
-            <p>A: This is where the question is answered</p>
+            <p>A: The tickets will not be released the 23rd of April.</p>
         </div>
     </div>
 
     <div class="text_left">
         <div class="question">
-            <p>Q: This is where the question is written</p>
+            <p>Q: How much does the tickets cost?</p>
         </div>
         <div class="answer">
-            <p>A: This is where the question is answered</p>
+            <p>A: A weekend pass is not 550kr. <br> A day pass is not 300kr.</p>
         </div>
     </div>
 
     <div class="text_right">
         <div class="question">
-            <p>Q: This is where the question is written This is where the question is written This is where the question is written This is where the question is written This is where the question is written This is where the question is written </p>
+            <p>Q: Can I use my "ledsagerbevis"? </p>
         </div>
         <div class="answer">
-            <p>A: This is where the question is answered This is where the question is answered This is where the question is answered This is where the question is answered This is where the question is answered This is where the question is answered</p>
+            <p>A: Yes. The companion (ledsager) gets access to the event equal to the type of ticket you have bought upon presenting a valid "ledsagerbevis".</p>
+        </div>
+    </div>
+
+    <div class="text_left">
+        <div class="question">
+            <p>Q: Can I buy a ticket at the door?</p>
+        </div>
+        <div class="answer">
+            <p>A: If there are tickets left then yes.</p>
+        </div>
+    </div>
+
+    <div class="text_right">
+        <div class="question">
+            <p>Q: Can I have an art-stand at Mooncon?</p>
+        </div>
+        <div class="answer">
+            <p>A: Art-stands would be a big part of Mooncon. If you are interested in one you can send a DM to the Mooncon Instagram. </p>
+        </div>
+    </div>
+
+    <div class="text_left">
+        <div class="question">
+            <p>Q: Can I hold a panel at Mooncon?</p>
+        </div>
+        <div class="answer">
+            <p>A: Yes! We rely on people holding panels to make our con interesting. If you want to hold a panel you can send a DM to the Mooncon Instagram. </p>
+        </div>
+    </div>
+
+    <div class="text_right">
+        <div class="question">
+            <p>Q: Can I volenteer to be part of the crew?</p>
+        </div>
+        <div class="answer">
+            <p>A: Yes! We are always in need of more hands and our volenteers make this con possible!</p>
+        </div>
+    </div>
+
+    <div class="text_left">
+        <div class="question">
+            <p>Q: Do I have to dress up?</p>
+        </div>
+        <div class="answer">
+            <p>A: No. While you may stand out a little as most people dress up, it's no requierment.</p>
+        </div>
+    </div>
+
+    <div class="text_right">
+        <div class="question">
+            <p>Q: Is there an age limit? </p>
+        </div>
+        <div class="answer">
+            <p>A: For most of the con there is no age limit, however after 21:00 on Saturday the age limit will be 18+ because there will be served alcohol at the lunar dance.</p>
+        </div>
+    </div>
+
+    <div class="text_left">
+        <div class="question">
+            <p>Q: Can I bring props?</p>
+        </div>
+        <div class="answer">
+            <p>A: Yes as long as they don't break our weapon guidelines. If they don't pass the weapon inspection it'll be confiscated and kept safe as long as you're at the con, and given back whenever you wish to leave.</p>
+        </div>
+    </div>
+
+    <div class="text_right">
+        <div class="question">
+            <p>Q: Is there food at the con?</p>
+        </div>
+        <div class="answer">
+            <p>A: There would be a small cafe by the entrence of the con where you can get snacks and some basic food.</p>
+        </div>
+    </div>
+
+    <div class="text_left">
+        <div class="question">
+            <p>Q: Any other questions?</p>
+        </div>
+        <div class="answer">
+            <p>A: Don't be afraid to ask via DM on Instagram! :)</p>
         </div>
     </div>
 </div>
