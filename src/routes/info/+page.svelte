@@ -21,6 +21,36 @@
     <p class="text">Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente.Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis!</p>
 
     <div class="line_horizontal"></div>
+
+    <h1 class="sub_titel">Weapon rules</h1>
+
+    <p class="text">Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente.Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis!</p>
+
+    <div class="line_horizontal"></div>
+
+    <h1 class="sub_titel">Crew</h1>
+
+    <p class="text">Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente.Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis!</p>
+
+    <div class="line_horizontal"></div>
+
+    <h1 class="sub_titel">Panels</h1>
+
+    <p class="text">Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente.Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis!</p>
+
+    <div class="line_horizontal"></div>
+
+    <h1 class="sub_titel">Artstands</h1>
+
+    <p class="text">Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente.Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis!</p>
+
+    <div class="line_horizontal"></div>
+
+    <h1 class="sub_titel">Sleeping hall</h1>
+
+    <p class="text">Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente.Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis!</p>
+
+    <div class="line_horizontal"></div>
 </div>
 
 <style>
