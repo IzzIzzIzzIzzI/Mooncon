@@ -71,6 +71,7 @@
     .text {
         color: white;
         width: 40vw;
+        margin-right: 20px;
     } .text p {
         font-size: x-large;
         font-family: rockwell-nova;
@@ -79,6 +80,7 @@
 
     .logo {
         width: fit-content;
+        margin-left: 20px;
     } .logo img {
         width: 40vw;
     }
