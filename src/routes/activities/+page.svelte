@@ -2,6 +2,10 @@
     import friday from "$lib/pictures/Program1.png";
     import saturday from "$lib/pictures/Program2.png";
     import sunday from "$lib/pictures/Program3.png";
+    import floor0 from "$lib/pictures/Basement.png";
+    import floor1 from "$lib/pictures/Floor1.png";
+    import floor2 from "$lib/pictures/Floor2.png";
+    import floor3 from "$lib/pictures/Floor3.png";
 </script>
 
 <link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
@@ -34,8 +38,25 @@
     <div class="line_horizontal"></div>
 
     <div class="dnd">
-        
+        <div class="dnd_text">
+            <h2>D&D</h2>
+            <p>Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente.</p>
+        </div>
+        <div class="line_vertical"></div>
+        <div class="dnd_times">
+
+        </div>
     </div>
+
+    <div class="line_horizontal"></div>
+
+    <div class="maps">
+        <img src="{floor0}" alt="Map of the basement">
+        <img src="{floor1}" alt="Map of the first floor">
+        <img src="{floor2}" alt="Map of the second floor">
+        <img src="{floor3}" alt="Map of the third floor">
+    </div>
+
 </div>
 
 <style>
@@ -85,6 +106,7 @@
         color: white;
         font-family: Latienne-Pro;
         font-style: medium;
+        font-size: xx-large;
         margin: 0px;
     }.programs img {
         border: #14001d solid;
@@ -98,5 +120,54 @@
         margin-bottom: 20px;
         background-color: #3c144b;
         opacity: 60%;
+    }
+
+    .dnd{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .dnd_text {
+        display: flex;
+        flex-direction: column;
+        width: 35vw;
+    } .dnd_text h2 {
+        color: white;
+        font-family: Latienne-Pro;
+        font-style: medium;
+        font-size:xx-large;
+        margin-bottom: 0;
+        
+    } .dnd_text p {
+        color: white;
+        font-family: Rockwell-Nova;
+        font-style: regular;
+        font-size: large;
+        margin-top: 0;
+    }
+
+    .line_vertical {
+        width: 5px;
+        background-color: #3c144b;
+        opacity: 60%;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    .dnd_times {
+        width: 30vw;
+        height: 30vw;
+        background-color: black;
+        margin-left: 40px;
+    }
+
+    .maps {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-bottom: 50px;
+    } .maps img {
+        width: 35vw;
+        margin: 15px;
     }
 </style>
