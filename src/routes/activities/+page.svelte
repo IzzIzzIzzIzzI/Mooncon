@@ -31,9 +31,11 @@
         <img src="{sunday}" alt="Spreadsheet of the program on Sunday">
     </div>
 
-    <div class="line_vertical"></div>
+    <div class="line_horizontal"></div>
 
-
+    <div class="dnd">
+        
+    </div>
 </div>
 
 <style>
@@ -89,8 +91,11 @@
         border-radius: 10px;
     }
 
-    .line_vertical {
-        width: 5px;
+    .line_horizontal {
+        width: 85vw;
+        height: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         background-color: #3c144b;
         opacity: 60%;
     }
