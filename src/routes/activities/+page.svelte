@@ -1,5 +1,7 @@
 <script>
-    import logo from "$lib/pictures/Mooncon_logo.png";
+    import friday from "$lib/pictures/Program1.png";
+    import saturday from "$lib/pictures/Program2.png";
+    import sunday from "$lib/pictures/Program3.png";
 </script>
 
 <link rel="stylesheet" href="https://use.typekit.net/wmh1kbd.css">
@@ -8,7 +10,7 @@
 
 <div class="top">
     <div class="title">
-        <h1>About us</h1>
+        <h1>Activities</h1>
     </div>
 
     <div class="line_main">
@@ -16,16 +18,23 @@
 </div>
 
 <div class="main">
-    <div class="text">
-        <p>Heya! We're just like your standard cosplay convention, the main diffrence is that we're fake! Lorem ipsum dolor sit amet. Id nisi illo aut voluptatum similique qui rerum officiis! Ea recusandae placeat ut repellat cupiditate At molestiae earum ad nesciunt autem est provident sint. Est culpa earum et fugit ullam non omnis ipsum et corrupti earum At sunt voluptatum. Et laudantium culpa ad commodi voluptas sit voluptas totam est amet nisi ex enim labore qui assumenda ipsum non velit sapiente.</p>
+    <div class="programs">
+        <h2>Friday</h2>
+        <img src="{friday}" alt="Spreadsheet of the program on Friday">
+    </div>
+    <div class="programs">
+        <h2>Saturday</h2>
+        <img src="{saturday}" alt="Spreadsheet of the program on Saturday">
+    </div>
+    <div class="programs">
+        <h2>Sunday</h2>
+        <img src="{sunday}" alt="Spreadsheet of the program on Sunday">
     </div>
 
-    <div class="logo">
-        <img src="{logo}" alt="Mooncon logo">
-    </div>
+    <div class="line_vertical"></div>
+
 
 </div>
-
 
 <style>
     .top {
@@ -63,25 +72,26 @@
         width: 100vw;
         top: 200px;
         display: flex;
-        justify-content: center;
-        flex-direction: row;
+        align-items: center;
+        flex-direction: column;
         position: absolute;
     }
 
-    .text {
+    .programs {
+        margin-bottom: 20px;
+    } .programs h2 {
         color: white;
-        width: 40vw;
-        margin-right: 20px;
-    } .text p {
-        font-size: x-large;
-        font-family: rockwell-nova;
-        font-style: regular;
+        font-family: Latienne-Pro;
+        font-style: medium;
+        margin: 0px;
+    }.programs img {
+        border: #14001d solid;
+        border-radius: 10px;
     }
 
-    .logo {
-        width: fit-content;
-        margin-left: 20px;
-    } .logo img {
-        width: 40vw;
+    .line_vertical {
+        width: 5px;
+        background-color: #3c144b;
+        opacity: 60%;
     }
 </style>
